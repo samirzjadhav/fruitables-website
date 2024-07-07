@@ -1,9 +1,11 @@
 import "./App.css";
+import Topbar from "./Common/Topbar.js";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <h1>App</h1>
+      <Topbar />
     </div>
   );
 }
